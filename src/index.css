@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul {
+    list-style: none;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+nav .active {
+    color:rgb(0, 162, 255);
+}
+a {
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+a:hover {
+    color:rgb(0, 162, 255);
+}
